@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -65,6 +66,52 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header .links {
+    flex: 1;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+header .links a {
+    color: black;
+    text-decoration: none;
+}
+header .links a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+.links nav{
+        width:50%;
+        display:flex;
+        align-items:right;
+        justify-content: space-evenly;
+
+}
+
+   
+.topimage{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
 
 .container {
     width: 800px;
