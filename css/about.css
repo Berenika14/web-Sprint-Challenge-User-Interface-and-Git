@@ -1,17 +1,42 @@
 .card-row {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 420px;
     align-items: stretch;
+    margin-bottom: 40px;
 }
 .card-row .card {
     flex: 1;
-    margin-bottom:20px ;
-    margin-top: 20px;
-
+    margin-bottom:40px ;
+    margin-top: 40px;
+    border-bottom: 1px dashed rgb(85, 83, 83);
+    padding-bottom:50px;
+    height: 420px;
+    
 }
 .card-row .card + .card {
     margin-left: 15px;
-    margin-bottom: 20px;
-    margin-top:20px;
+    margin-bottom: 40px;
+    margin-top:40px;
+}
+.topcontent{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+.bottom{
+    margin-top: 90px;
+    margin-bottom:40px;
+}
+
+.card-row .card img{
+    margin-bottom: 10px;
+}
+
+.card-row .card button{
+    margin-top:10px;
+    border-radius: 10px;
+    height:10%;
+    width:30%;
+    border-color: black;
+    border-width: 2.5px;
 }
